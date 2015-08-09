@@ -79,6 +79,6 @@ function finishedLoading(bufferList) {
     source = context.createBufferSource();
     source.buffer = bufferList[i];
     source.connect(context.destination);
-    source.start(i*20);
+    source.start(i);
   }
 }
