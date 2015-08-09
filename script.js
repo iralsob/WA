@@ -58,6 +58,9 @@ function init() {
 			[
 				'sounds/myau.ogg',
 				'sounds/gav.ogg',
+        'sounds/car.ogg',
+        'sounds/moo.ogg',
+        'sounds/kukareku.ogg'
 			],
 			finishedLoading
 			);
