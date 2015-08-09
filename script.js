@@ -76,9 +76,13 @@ function finishedLoading(bufferList) {
   // Create two sources and play them both together.
   var source;
   for (var i=0; i < bufferList.length; i++) {
+    var tmp = i+1;
+    var next = context.createBufferSource();
+    next.buffer = bufferList[tmp];
+
     source = context.createBufferSource();
     source.buffer = bufferList[i];
-    source.connect(context.destination);
+    source.connect(next);
     source.start(0);
   }
 }
