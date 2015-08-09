@@ -60,7 +60,7 @@ function init() {
 				'sounds/gav.ogg',
         'sounds/car.ogg',
         'sounds/moo.ogg',
-        'sounds/kukareku.ogg'
+        'sounds/kukareku.wav'
 			],
 			finishedLoading
 			);
